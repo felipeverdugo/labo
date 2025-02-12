@@ -25,10 +25,10 @@ class GameActivity : AppCompatActivity() {
     private lateinit var imgCaballo : ImageView
 
     private lateinit var herramienta_1 : ImageView
-    private lateinit var herramienta_2 : ImageView
-    private lateinit var herramienta_3 : ImageView
-    private lateinit var herramienta_4 : ImageView
-    private lateinit var herramienta_5 : ImageView
+//    private lateinit var herramienta_2 : ImageView
+//    private lateinit var herramienta_3 : ImageView
+//    private lateinit var herramienta_4 : ImageView
+//    private lateinit var herramienta_5 : ImageView
 
 
     private lateinit var mancha_1 : ImageView
