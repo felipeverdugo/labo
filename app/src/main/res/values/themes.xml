@@ -4,6 +4,9 @@
         <!-- Color de fondo general -->
         <item name="android:windowBackground">#78C6C9</item>
 
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
         <!-- Color del texto -->
         <item name="android:textColorPrimary">#000000</item>
 

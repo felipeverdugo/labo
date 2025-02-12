@@ -1,4 +1,4 @@
-package com.felipe.aprendamosalimpiar.viewmodels
+package com.felipe.aprendamosalimpiar.ui.activities
 
 import android.os.Bundle
 import android.widget.TextView

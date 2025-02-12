@@ -5,9 +5,9 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".viewmodels.MenuActivity">
+    tools:context=".ui.activities.MenuActivity">
 
-
+    <include layout="@layout/toolbar"/>
 
     <LinearLayout
         xmlns:tools="http://schemas.android.com/tools"
@@ -16,7 +16,7 @@
         android:orientation="vertical"
         android:gravity="center"
         android:padding="16dp"
-        tools:context=".viewmodels.MenuActivity">
+        tools:context=".ui.activities.MenuActivity">
 
         <TextView
             android:id="@+id/txtTitulo"

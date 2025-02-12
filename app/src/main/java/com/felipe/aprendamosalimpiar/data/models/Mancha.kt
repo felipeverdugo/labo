@@ -1,4 +1,4 @@
-package com.felipe.aprendamosalimpiar.models
+package com.felipe.aprendamosalimpiar.data.models
 
 data class Mancha (
     val id: Int,

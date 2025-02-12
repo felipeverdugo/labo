@@ -1,4 +1,4 @@
-package com.felipe.aprendamosalimpiar.models
+package com.felipe.aprendamosalimpiar.data.models
 
 import com.felipe.aprendamosalimpiar.R
 

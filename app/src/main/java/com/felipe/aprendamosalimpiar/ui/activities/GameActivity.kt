@@ -1,7 +1,6 @@
-package com.felipe.aprendamosalimpiar.viewmodels
+package com.felipe.aprendamosalimpiar.ui.activities
 
 import android.annotation.SuppressLint
-import android.content.ClipData
 import android.content.Intent
 import android.graphics.ColorMatrix
 import android.graphics.ColorMatrixColorFilter
@@ -12,12 +11,11 @@ import android.view.View
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import com.felipe.aprendamosalimpiar.R
-import com.felipe.aprendamosalimpiar.models.Dificultad
-import com.felipe.aprendamosalimpiar.models.EstadoCaballo
-import com.felipe.aprendamosalimpiar.models.Herramienta
-import com.felipe.aprendamosalimpiar.models.NivelJuego
-import com.felipe.aprendamosalimpiar.models.ParteCuerpo
-import java.io.Serializable
+import com.felipe.aprendamosalimpiar.data.models.Dificultad
+import com.felipe.aprendamosalimpiar.data.models.EstadoCaballo
+import com.felipe.aprendamosalimpiar.data.models.Herramienta
+import com.felipe.aprendamosalimpiar.data.models.NivelJuego
+import com.felipe.aprendamosalimpiar.data.models.ParteCuerpo
 
 class GameActivity : AppCompatActivity() {
 

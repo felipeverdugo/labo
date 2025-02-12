@@ -5,7 +5,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:padding="5dp"
-    tools:context=".viewmodels.GameActivity">
+    tools:context=".ui.activities.GameActivity">
 
 
     <TextView

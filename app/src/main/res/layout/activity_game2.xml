@@ -5,7 +5,8 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="5dp"
-    tools:context=".viewmodels.GameActivity">
+
+    tools:context=".ui.activities.GameActivity">
 
     <TextView
         android:id="@+id/tvTituloJuego"
@@ -34,6 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+
         >
 
         <ImageView
@@ -41,6 +43,7 @@
             android:layout_width="320dp"
             android:layout_height="320dp"
             android:contentDescription="@string/imagen_del_caballo"
+
             tools:src="@drawable/cabeza_4"
             android:layout_marginTop="30dp"
             android:layout_gravity="center"/>

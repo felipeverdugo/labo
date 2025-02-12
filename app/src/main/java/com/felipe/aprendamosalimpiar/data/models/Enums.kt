@@ -1,6 +1,5 @@
-package com.felipe.aprendamosalimpiar.models
+package com.felipe.aprendamosalimpiar.data.models
 
-import android.graphics.drawable.Drawable
 import com.felipe.aprendamosalimpiar.R
 
 enum class TipoMovimiento {

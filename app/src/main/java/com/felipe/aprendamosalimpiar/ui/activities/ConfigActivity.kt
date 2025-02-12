@@ -1,11 +1,11 @@
-package com.felipe.aprendamosalimpiar.viewmodels
+package com.felipe.aprendamosalimpiar.ui.activities
 
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.felipe.aprendamosalimpiar.R
-import com.felipe.aprendamosalimpiar.models.Dificultad
+import com.felipe.aprendamosalimpiar.data.models.Dificultad
 
 
 class ConfigActivity : AppCompatActivity() {

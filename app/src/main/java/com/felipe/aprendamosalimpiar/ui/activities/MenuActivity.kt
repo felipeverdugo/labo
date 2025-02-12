@@ -1,15 +1,16 @@
-package com.felipe.aprendamosalimpiar.viewmodels
+package com.felipe.aprendamosalimpiar.ui.activities
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.felipe.aprendamosalimpiar.R
-import com.felipe.aprendamosalimpiar.models.Dificultad
-import com.felipe.aprendamosalimpiar.models.NivelJuego
+import com.felipe.aprendamosalimpiar.data.models.Dificultad
+import com.felipe.aprendamosalimpiar.data.models.NivelJuego
 
 
 class MenuActivity : AppCompatActivity() {
@@ -27,6 +28,9 @@ class MenuActivity : AppCompatActivity() {
 
         val btnJugar = findViewById<Button>(R.id.btnJugar)
         val btnConfigurar = findViewById<Button>(R.id.btnConfigurar)
+
+        val toolbar = findViewById<Toolbar>(R.id.toolbar)
+        setSupportActionBar(toolbar)
 
         btnJugar.setOnClickListener {
             val intent = Intent(this, PreLevelActivity::class.java)

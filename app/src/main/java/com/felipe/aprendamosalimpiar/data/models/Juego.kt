@@ -1,4 +1,4 @@
-package com.felipe.aprendamosalimpiar.models
+package com.felipe.aprendamosalimpiar.data.models
 
 enum class NivelJuego(
     val herramientaRequerida: Herramienta,

@@ -13,7 +13,7 @@
         android:theme="@style/Theme.AprendamosALimpiar"
         tools:targetApi="31">
         <activity
-            android:name=".viewmodels.MenuActivity"
+            android:name=".ui.activities.MenuActivity"
             android:exported="true"
             android:theme="@style/Theme.AprendamosALimpiar">
             <intent-filter>
@@ -23,16 +23,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".viewmodels.PreLevelActivity"
+            android:name=".ui.activities.PreLevelActivity"
             android:exported="false" />
         <activity
-            android:name=".viewmodels.GameActivity"
+            android:name=".ui.activities.GameActivity"
             android:exported="false" />
         <activity
-            android:name=".viewmodels.ConfigActivity"
+            android:name=".ui.activities.ConfigActivity"
             android:exported="false" />
         <activity
-            android:name=".viewmodels.PasarNivel"
+            android:name=".ui.activities.PasarNivel"
             android:exported="false" />
     </application>
 
