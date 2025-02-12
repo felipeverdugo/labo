@@ -42,4 +42,22 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="imagen_del_caballo">Imagen del caballo</string>
+    <string name="silueta">Silueta</string>
+
+    <string name="herramienta_1">Herramienta 1</string>
+    <string name="herramienta_2">Herramienta 2</string>
+    <string name="herramienta_3">Herramienta 3</string>
+    <string name="herramienta_4">Herramienta 4</string>
+    <string name="herramienta_5">Herramienta 5</string>
+
+    <string name="mancha_1">Mancha 1</string>
+    <string name="mancha_2">Mancha 2</string>
+    <string name="mancha_3">Mancha 3</string>
+    <string name="mancha_4">Mancha 4</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="arrastra_una_herramienta">Arrastra una herramienta</string>
+    <string name="limpia_la_cabeza_del_caballo">Limpia la cabeza del caballo</string>
+    <string name="cabeza">Cabeza</string>
+
 </resources>

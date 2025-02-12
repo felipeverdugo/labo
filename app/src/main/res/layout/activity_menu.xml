@@ -5,18 +5,18 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuActivity">
+    tools:context=".viewmodels.MenuActivity">
 
 
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <LinearLayout
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
         android:padding="16dp"
-        tools:context=".MenuActivity">
+        tools:context=".viewmodels.MenuActivity">
 
         <TextView
             android:id="@+id/txtTitulo"
@@ -44,9 +44,6 @@
             android:layout_marginTop="16dp"/>
 
     </LinearLayout>
-
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

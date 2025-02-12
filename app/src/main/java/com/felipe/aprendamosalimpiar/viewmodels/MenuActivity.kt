@@ -1,4 +1,4 @@
-package com.felipe.aprendamosalimpiar
+package com.felipe.aprendamosalimpiar.viewmodels
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,10 +7,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.felipe.aprendamosalimpiar.R
 import com.felipe.aprendamosalimpiar.models.Dificultad
 import com.felipe.aprendamosalimpiar.models.NivelJuego
-import com.felipe.aprendamosalimpiar.viewmodels.ConfigActivity
-import com.felipe.aprendamosalimpiar.viewmodels.GameActivity
 
 
 class MenuActivity : AppCompatActivity() {
@@ -30,7 +29,7 @@ class MenuActivity : AppCompatActivity() {
         val btnConfigurar = findViewById<Button>(R.id.btnConfigurar)
 
         btnJugar.setOnClickListener {
-            val intent = Intent(this, GameActivity::class.java)
+            val intent = Intent(this, PreLevelActivity::class.java)
             dificultad = Dificultad.FACIL
             intent.putExtra("EXTRA DIFICULTAD",dificultad.name)
             intent.putExtra("EXTRA NIVEL",NivelJuego.NIVEL_1.name)

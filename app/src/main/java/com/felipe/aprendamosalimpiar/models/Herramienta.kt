@@ -12,7 +12,7 @@ enum class Herramienta(
         ParteCuerpo.CABEZA,
         ParteCuerpo.MANOS,
         ParteCuerpo.PATAS
-    ), R.drawable.rasqueta_blanda),
+    ), R.drawable.rasqueta_blanda2),
 
     RASQUETA_DURA(TipoMovimiento.CIRCULAR, listOf(
         ParteCuerpo.CUELLO,
